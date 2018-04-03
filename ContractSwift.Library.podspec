@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ContractSwift.Library"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.license       = { :type => "MIT", :file => "LICENSE" }
   s.homepage      = "https://github.com/daisuke310vvv/ContractSwift.Library"
   s.author        = { "daisuke310vvv" => "daisuke.sato1991@gmail.com" }
