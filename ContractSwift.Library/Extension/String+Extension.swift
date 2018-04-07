@@ -21,8 +21,8 @@ extension String: Hex256bitStringer {
     
     public var hex256bitString: String {
         get {
-            let data = self.data(using: .utf8)
-            let hex = data?.reduce("") { $0 + String(format: "%02x", $1)} ?? ""
+            let data = self.data(using: .utf8) ?? Data()
+            let hex = data.reduce("") { $0 + String(format: "%02x", $1)}
             return hex.zeroPadding(length: 64)
         }
     }
