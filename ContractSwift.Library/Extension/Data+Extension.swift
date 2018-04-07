@@ -11,7 +11,7 @@ import Foundation
 extension Data: Hex256bitStringer {
     public var hex256bitString: String {
         get {
-            let hex = self.reduce("") { $0 + String(format: "%02x", $1)} ?? ""
+            let hex = self.reduce("") { $0 + String(format: "%02x", $1)}
             return hex.zeroPadding(length: 64)
         }
     }
