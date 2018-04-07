@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690961AA2078D7B300801CBE /* Bool+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690961A92078D7B300801CBE /* Bool+Extension.swift */; };
+		690961AC2078DBAF00801CBE /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690961AB2078DBAF00801CBE /* Data+Extension.swift */; };
+		690961AE2078DCD600801CBE /* Contract.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690961AD2078DCD600801CBE /* Contract.generated.swift */; };
 		6927DFAC2073DC0100540B30 /* ContractSwift_Library.h in Headers */ = {isa = PBXBuildFile; fileRef = 6927DFAA2073DC0100540B30 /* ContractSwift_Library.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6927DFB92073DC5500540B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927DFB82073DC5500540B30 /* AppDelegate.swift */; };
 		6927DFBB2073DC5500540B30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927DFBA2073DC5500540B30 /* ViewController.swift */; };
@@ -19,9 +22,7 @@
 		6927DFD82073DCFD00540B30 /* Hex256bitStringer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927DFD02073DCFD00540B30 /* Hex256bitStringer.swift */; };
 		6927DFD92073DCFD00540B30 /* SMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927DFD12073DCFD00540B30 /* SMP.swift */; };
 		6927DFDA2073DCFD00540B30 /* SMP+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927DFD32073DCFD00540B30 /* SMP+Extension.swift */; };
-		6927DFDB2073DCFD00540B30 /* UInt+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927DFD42073DCFD00540B30 /* UInt+Extension.swift */; };
 		6927DFDC2073DCFD00540B30 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927DFD52073DCFD00540B30 /* String+Extension.swift */; };
-		6927DFDE2073DD4300540B30 /* Contract.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927DFDD2073DD4300540B30 /* Contract.generated.swift */; };
 		D9081CAD435A066A1F8850D4 /* Pods_ContractSwift_LibraryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2499F688BE198A2BD9ED0161 /* Pods_ContractSwift_LibraryDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,9 @@
 /* Begin PBXFileReference section */
 		2499F688BE198A2BD9ED0161 /* Pods_ContractSwift_LibraryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContractSwift_LibraryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC44062B808D03D3725E293 /* Pods-ContractSwift.LibraryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContractSwift.LibraryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContractSwift.LibraryDemo/Pods-ContractSwift.LibraryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		690961A92078D7B300801CBE /* Bool+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Extension.swift"; sourceTree = "<group>"; };
+		690961AB2078DBAF00801CBE /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		690961AD2078DCD600801CBE /* Contract.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contract.generated.swift; path = ../../ContractSwift/Contract.generated.swift; sourceTree = "<group>"; };
 		6927DFA72073DC0100540B30 /* ContractSwift_Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContractSwift_Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6927DFAA2073DC0100540B30 /* ContractSwift_Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractSwift_Library.h; sourceTree = "<group>"; };
 		6927DFAB2073DC0100540B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,9 +70,7 @@
 		6927DFD02073DCFD00540B30 /* Hex256bitStringer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hex256bitStringer.swift; sourceTree = "<group>"; };
 		6927DFD12073DCFD00540B30 /* SMP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMP.swift; sourceTree = "<group>"; };
 		6927DFD32073DCFD00540B30 /* SMP+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMP+Extension.swift"; sourceTree = "<group>"; };
-		6927DFD42073DCFD00540B30 /* UInt+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt+Extension.swift"; sourceTree = "<group>"; };
 		6927DFD52073DCFD00540B30 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		6927DFDD2073DD4300540B30 /* Contract.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contract.generated.swift; sourceTree = "<group>"; };
 		E876E3B309906EF2109667EC /* Pods-ContractSwift.LibraryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContractSwift.LibraryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContractSwift.LibraryDemo/Pods-ContractSwift.LibraryDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,7 +137,7 @@
 		6927DFB72073DC5500540B30 /* ContractSwift.LibraryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6927DFDD2073DD4300540B30 /* Contract.generated.swift */,
+				690961AD2078DCD600801CBE /* Contract.generated.swift */,
 				6927DFB82073DC5500540B30 /* AppDelegate.swift */,
 				6927DFBA2073DC5500540B30 /* ViewController.swift */,
 				6927DFBC2073DC5500540B30 /* Main.storyboard */,
@@ -160,8 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				6927DFD32073DCFD00540B30 /* SMP+Extension.swift */,
-				6927DFD42073DCFD00540B30 /* UInt+Extension.swift */,
 				6927DFD52073DCFD00540B30 /* String+Extension.swift */,
+				690961A92078D7B300801CBE /* Bool+Extension.swift */,
+				690961AB2078DBAF00801CBE /* Data+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -345,8 +348,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6927DFD92073DCFD00540B30 /* SMP.swift in Sources */,
+				690961AC2078DBAF00801CBE /* Data+Extension.swift in Sources */,
 				6927DFDC2073DCFD00540B30 /* String+Extension.swift in Sources */,
-				6927DFDB2073DCFD00540B30 /* UInt+Extension.swift in Sources */,
+				690961AA2078D7B300801CBE /* Bool+Extension.swift in Sources */,
 				6927DFD82073DCFD00540B30 /* Hex256bitStringer.swift in Sources */,
 				6927DFD62073DCFD00540B30 /* Address.swift in Sources */,
 				6927DFDA2073DCFD00540B30 /* SMP+Extension.swift in Sources */,
@@ -358,7 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6927DFBB2073DC5500540B30 /* ViewController.swift in Sources */,
-				6927DFDE2073DD4300540B30 /* Contract.generated.swift in Sources */,
+				690961AE2078DCD600801CBE /* Contract.generated.swift in Sources */,
 				6927DFB92073DC5500540B30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
